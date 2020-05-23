@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".resources\css\style.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
 </head>
+
 <body>
 
     <!-- Main Content Container -->
 
-    <div>
+    <div class="main">
         <header>
             <h1>Discover hidden places in the world around you</h1>
         </header>
         <span>
-            <a>Download Excursion (Coming soon!)</a>
+            <a href="./index.html">Download Excursion (Coming soon!)</a>
         </span>
-        <iframe src="./resources\excursion.mp4" frameborder="0"></iframe>
+        <br>
+        <video autoplay muted loop width="250">
+            <source src="./resources/excursion.mp4"
+                    type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
         <h2>Your personal travel guide</h2>
-        <span>Excursion remembers the places you like, and recommends new points of interest around you.</span>
-        <img src="./resources/camp.jpg">
+        <span class="midtext">Excursion remembers the places you like, and recommends new points of interest around you.</span>
+        <br>
+        <img class="camp_img" src="./resources/camp.jpg">
+        <br>
         <img src="./resources/phone.png">
+        <br>
         <span>
-            <a>Download Excursion (Coming soon!)</a>
+            <a href="./index.html">Download Excursion (Coming soon!)</a>
         </span>
     </div>
 
     <!-- Footer -->
 
-    <div>
-        <span>&copy; Excursion</span>
+    <div class="footer">
+        <span class="midtext" >&copy; Excursion</span>
     </div>
+
 </body>
+
 </html>

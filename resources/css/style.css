@@ -1,3 +1,45 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+html{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+a{
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.midtext{
+    color: gray;
+    font-size: 21px;
+}
+
+.footer{
+    float: right;
+    color: gray;
+}
+
+.camp_img{
+    max-width: 70%;
+    height: auto;
+}
